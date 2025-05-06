@@ -10,18 +10,19 @@ class TalkScreen extends StatelessWidget {
 
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
-          color: Colors.black,
-          image: DecorationImage(
-            image: NetworkImage(
-              isSartaj 
-                  ? 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8039.PNG-sTzKfrvchUQ5zAkknfyvL8Ik01Coyl.png' 
-                  : 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8040.PNG-ZRlx7Hy74L6LrYoOnYOI7FeOF7dDqM.png',
-            ),
-            fit: BoxFit.cover,
-            opacity: 0.9,
-          ),
-        ),
+        //TODO: will replace with a background image of user
+        // decoration: BoxDecoration(
+        //   color: Colors.black,
+        //   image: DecorationImage(
+        //     image: NetworkImage(
+        //       isSartaj 
+        //           ? 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8039.PNG-sTzKfrvchUQ5zAkknfyvL8Ik01Coyl.png' 
+        //           : 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_8040.PNG-ZRlx7Hy74L6LrYoOnYOI7FeOF7dDqM.png',
+        //     ),
+        //     fit: BoxFit.cover,
+        //     opacity: 0.9,
+        //   ),
+        // ),
         child: Column(
           children: [
             const SizedBox(height: 40),
